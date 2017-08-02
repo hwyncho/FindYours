@@ -1,0 +1,72 @@
+body,
+#content {
+    min-height: 100vh;
+}
+
+#menu .dropdown,
+#content .hidden {
+    display: none;
+}
+
+#content-main h1 {
+    font-size: 4em;
+}
+
+#content-main h2 {
+    font-size: 2em;
+}
+
+#content-main .primary.button {
+    margin-top: 1em;
+}
+
+#content-form h1 {
+    font-size: 3em;
+}
+
+#content-form h2 {
+    font-size: 1.5em;
+}
+
+#modal-result .ellipsis {
+    display: inline-block;
+    max-width: 22vmax;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 720px) {
+    #menu .dropdown {
+        display: block;
+    }
+
+    #menu .right .item:nth-child(1),
+    #menu .right .item:nth-child(2),
+    #menu .right .item:nth-child(3),
+    #menu .right .item:nth-child(4) {
+        display: none;
+    }
+
+    #content-main h1 {
+        font-size: 3em;
+    }
+
+    #content-main h2 {
+        font-size: 1.5em;
+    }
+
+    #content-form h1 {
+        margin-top: 0.5em;
+        font-size: 2em;
+    }
+
+    #content-form h2 {
+        margin-top: 0em;
+        font-size: 1em;
+    }
+
+    #modal-result .ellipsis {
+        max-width: 77vmin;
+    }
+}

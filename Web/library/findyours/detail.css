@@ -1,0 +1,12 @@
+body {
+    min-height: 100vh;
+}
+
+#data {
+    margin-top: 1em;
+}
+
+#map {
+    width: 100%;
+    height:100%
+}
